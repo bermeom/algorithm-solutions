@@ -1,5 +1,5 @@
 /*
-    3394. Check if Grid can be Cut into Sections
+    3169. Count Days Without Meetings
     Author: Miguel Angel Bermeo Ayerbe
 */
 impl Solution {
