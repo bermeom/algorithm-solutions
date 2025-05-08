@@ -17,19 +17,8 @@ Reference:
 - https://www.geeksforgeeks.org/minimum-steps-to-convert-an-array-into-permutation-of-numbers-from-1-to-n/
 """
 
-
-# Python3 program to find minimum number of steps to
-# convert a given sequence into a permutation
- 
-# Function to find minimum number of steps to
-# convert a given sequence into a permutation
-def get_permutation(arr):
- 
-    # Sort the given array
+def min_operations(arr: list) -> int:
     arr = sorted(arr)
- 
-    # To store the required minimum
-    # number of operations
     result = 0
  
     # Find the operations on each step
@@ -41,7 +30,7 @@ def get_permutation(arr):
  
 # Driver code
 if __name__ == '__main__':
-    arr=[0, 2, 3, 4, 1, 6, 8, 9]
+    arr=[2,3,4,5]
     
     # Function call
-    print(get_permutation(arr, n))
+    print(min_operations(arr))
